@@ -1,15 +1,11 @@
 html {
   height: 100%;
   overflow: hidden;
-    margin: 0;
-    margin-top: 
-	padding: 0;
-	box-sizing: border-box;
-	font-size: 16px;
-	
-}
-
-* {
+  margin: 0;
+  margin-top: 
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 0 ;
   box-sizing: border-box;
 }
 
@@ -28,10 +24,16 @@ body {
 }
 
 
+/* Page container */
 
 #page-container {
-  position: absolute;
+  position: relative;
   min-height: 100vh;
+  
+}
+  
+  
+  
 }
 
 #content-wrap {
@@ -172,7 +174,7 @@ heade::before {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(images/indigoWebWizardPic9.jpg);
+    ), url(indigoWebWizardPic9.jpg);
   background-size: cover;
   /*x y z */
   transform-origin: center center 0;
@@ -206,7 +208,7 @@ header * {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(images/digi3.jpg);
+    ), url(digi3.jpg);
   background-size: cover;
   /*x y z */
   transform-origin: center center 0;
@@ -285,13 +287,13 @@ img {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ),  url("images/indigoWebWizardPic9.jpg");
+    ),  url(indigoWebWizardPic9.jpg);
 }
 .slide-3 {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ),  url("images/indigoWebWizardPic2.jpg");
+    ),  url(indigoWebWizardPic2.jpg);
 }
 
 
@@ -958,6 +960,27 @@ img {
     
   
 }
+
+/* container */
+
+/* Youtube Video */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
   
   
    

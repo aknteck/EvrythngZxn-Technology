@@ -163,7 +163,7 @@ heade::before {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(images/indigoWebWizardPic9.jpg);
+    ), url(indigoWebWizardPic9.jpg);
   background-size: cover;
   /*x y z */
   transform-origin: center center 0;
@@ -197,7 +197,7 @@ header * {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(images/digi3.jpg);
+    ), url(digi3.jpg);
   background-size: cover;
   /*x y z */
   transform-origin: center center 0;
@@ -270,7 +270,7 @@ img {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ),  url("images/digi3.jpg");
+    ),  url(digi3.jpg);
 }
 .slide-2 {
   background-image:linear-gradient(
@@ -282,7 +282,7 @@ img {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ),  url("images/indigoWebWizardPic2.jpg");
+    ),  url(indigoWebWizardPic2.jpg);
 }
 
 
